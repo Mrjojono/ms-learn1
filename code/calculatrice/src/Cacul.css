@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#root{
+    width: 320px;
+    margin: 100px auto ;
+}
+#reponse{
+    padding: 10px;
+    background-color: cadetblue;
+    font-size: 30px;
+    color: black;
+    width: 295px;
+    height: 46px;
+    text-align: right;
+    border: 3px solid beige;
+}
+#reponse::placeholder{
+    color: black;
+}
+.button{
+    height: 80px;
+    width: 80px;
+    float: left;
+    border: 3px solid #eaa854;
+    font-size: 20px;
+    background-color: brown;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: 5px 5px 5px  #f41414;
+
+}
+.button1{
+    width: 160px;
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
